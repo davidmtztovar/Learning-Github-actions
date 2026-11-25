@@ -1,1 +1,13 @@
-
+name: my-first-workflow
+#To get triggered on every push
+on: push
+jobs:
+  job1:
+    name: JOB1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Running Single Command in Job1
+        run: echo "Hello world"
+      - name: Checking OS Release for GitHub Hosted runner
+        run: cat/etc/os-release
+     
