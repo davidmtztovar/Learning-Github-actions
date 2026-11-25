@@ -9,5 +9,5 @@ jobs:
       - name: Running Single Command in Job1
         run: echo "Hello world"
       - name: Checking OS Release for GitHub Hosted runner
-        run: cat/etc/os-release
+        run: cat /etc/os-release
      
