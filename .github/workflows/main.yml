@@ -2,7 +2,7 @@ name: my-first-workflow
 #To get triggered on every push
 on: 
   schedule:
-    - cron: "1/ * * * *"
+    - cron: "*/5 * * * *"
 jobs:
   job1:
     name: JOB1
